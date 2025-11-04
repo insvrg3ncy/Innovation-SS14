@@ -27,7 +27,7 @@ jobs:
 
     - name: Fix Git security
       run: |
-        git config --global --add safe.directory "$GITHUB_WORKSPACE"
+        git config --global --add safe.directory /home/deatherd/actions-runner/_work/Innovation-SS14-25-/Innovation-SS14-25-/RobustToolbox
 
     - name: Get Engine Tag
       run: |
