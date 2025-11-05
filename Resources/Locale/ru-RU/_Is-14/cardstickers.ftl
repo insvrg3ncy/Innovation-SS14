@@ -9,6 +9,7 @@ card-sticker-syndicate = CyberSun
 card-sticker-skull = вольные люди
 card-sticker-memento-ultionis = легитимисты
 card-sticker-galaxy = Цдар-Дао
+card-sticker-emag = ЕМАГ
 
 ent-IS_CardStickerGalaxy = наклейка Цдар-Дао
     .desc = Одноразовый стикер для айди-карт. Сделайте свои доступы модными!
@@ -31,4 +32,6 @@ ent-IS_CardStickerMelon = наклейка с арбузом
 ent-IS_CardStickerMIA = наклейка "Militarum intergalactic aggregator"
     .desc = { ent-IS_CardStickerGalaxy.desc }
 ent-IS_CardStickerPlasma = наклейка "СовПлазма"
+    .desc = { ent-IS_CardStickerGalaxy.desc }
+ent-IS_CardStickerEmag = наклейка "ЕМАГ"
     .desc = { ent-IS_CardStickerGalaxy.desc }

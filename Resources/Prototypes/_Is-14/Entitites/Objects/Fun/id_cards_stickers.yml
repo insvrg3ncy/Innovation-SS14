@@ -228,3 +228,24 @@
   icon:
     sprite: _IS14/Objects/Fun/id_stickers.rsi
     state: plasma
+
+# ========================== plasma
+
+- type: entity
+  id: IS_CardStickerEmag
+  name: emag card sticker
+  parent: BaseItem
+  description: Make your id card more cool!
+  components:
+  - type: Sprite
+    sprite: /Textures/_IS14/Objects/Fun/id_stickers.rsi
+    state: emag
+  - type: CardSticker
+    cardStickerProto: IS_CardStickerEmag
+
+- type: cardSticker
+  id: IS_CardStickerEmag
+  name: card-sticker-emag
+  icon:
+    sprite: _IS14/Objects/Fun/id_stickers.rsi
+    state: emag
