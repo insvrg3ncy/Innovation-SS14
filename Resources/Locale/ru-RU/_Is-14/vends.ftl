@@ -1,3 +1,16 @@
+ent-IS14VendingMachineMilicia = МилицШкаф
+    .desc = Ментовской гардероб.
+
+ent-IS14VendingMachineObshiy = ОбщШкаф
+    .desc = Гардероб общего пользования.
+
+ent-IS14VendingMachineUr = ЮрШкаф
+    .desc = Юридический гардероб.
+
+
+
+
+
 advertisement-milic-1 = Груз дв...
 advertisement-milic-2 = Лучшая одежда милиционера!
 advertisement-milic-3 = Лучшая фуражка!

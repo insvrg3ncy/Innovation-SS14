@@ -1,8 +1,8 @@
 - type: entity
   parent: VendingMachine
   id: IS14VendingMachineMilicia
-  name: МилицШкаф
-  description: Ментовской гардероб.
+  name: MilicVend
+  description: Cop garderob.
   components:
   - type: VendingMachine
     pack: IS14MilicInventory #
@@ -36,8 +36,8 @@
 - type: entity
   parent: VendingMachine
   id: IS14VendingMachineObshiy
-  name: ОбщШкаф
-  description: Гардероб общего пользования.
+  name: Vend
+  description: Vend all access.
   components:
   - type: VendingMachine
     pack: IS14ObshiyInventory #
@@ -71,8 +71,8 @@
 - type: entity
   parent: VendingMachine
   id: IS14VendingMachineUr
-  name: ЮрШкаф
-  description: Юридический гардероб.
+  name: LawVend
+  description: Vending machine for lawyers.
   components:
   - type: VendingMachine
     pack: IS14UrInventory #
