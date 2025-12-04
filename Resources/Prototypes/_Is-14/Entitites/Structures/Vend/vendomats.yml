@@ -2,7 +2,7 @@
   parent: VendingMachine
   id: IS14VendingMachineMilicia
   name: MilicVend
-  description: Cop garderob.
+  description: Cop wardrobe.
   components:
   - type: VendingMachine
     pack: IS14MilicInventory #
@@ -37,7 +37,7 @@
   parent: VendingMachine
   id: IS14VendingMachineObshiy
   name: Vend
-  description: Vend all access.
+  description: General usage vend.
   components:
   - type: VendingMachine
     pack: IS14ObshiyInventory #
