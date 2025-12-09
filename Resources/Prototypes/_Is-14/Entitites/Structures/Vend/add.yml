@@ -1,0 +1,52 @@
+- type: localizedDataset
+  id: IS14MilicVendAds
+  values:
+    prefix: advertisement-milic-
+    count: 4
+
+- type: localizedDataset
+  id: IS14ObshiyVendAds
+  values:
+    prefix: advertisement-obshiy-
+    count: 4
+
+- type: localizedDataset
+  id: IS14URVendAds
+  values:
+    prefix: advertisement-ur-
+    count: 4
+
+
+
+
+
+
+
+#                                    ▲
+#adventersments бля мой инглиш сосет |
+#даааа норм сортировка идет нахуй
+#goodbyes |
+#         ▼
+
+
+
+- type: localizedDataset
+  id: IS14MilicVendGoodbyes
+  values:
+    prefix: thankyou-milicvend-
+    count: 4
+
+- type: localizedDataset
+  id: IS14ObshiyVendGoodbyes
+  values:
+    prefix: thankyou-obshiy-
+    count: 4
+
+- type: localizedDataset
+  id: IS14URVendGoodbyes
+  values:
+    prefix: thankyou-ur-
+    count: 4
+
+
+
