@@ -16,9 +16,29 @@
     prefix: advertisement-ur-
     count: 4
 
+- type: localizedDataset
+  id: IS14ExpGearVendAds
+  values:
+    prefix: advertisement-expgear-
+    count: 4
 
+- type: localizedDataset
+  id: IS14ExpVendAds
+  values:
+    prefix: advertisement-exp-
+    count: 4
 
+- type: localizedDataset
+  id: IS14ChemVendAds
+  values:
+    prefix: advertisement-chem-
+    count: 4
 
+- type: localizedDataset
+  id: IS14MedVendAds
+  values:
+    prefix: advertisement-med-
+    count: 4
 
 
 
@@ -48,5 +68,26 @@
     prefix: thankyou-ur-
     count: 4
 
+- type: localizedDataset
+  id: IS14ExpGearVendGoodbyes
+  values:
+    prefix: thankyou-expgear-
+    count: 4
 
+- type: localizedDataset
+  id: IS14ExpVendGoodbyes
+  values:
+    prefix: thankyou-exp-
+    count: 4
 
+- type: localizedDataset
+  id: IS14ChemVendGoodbyes
+  values:
+    prefix: thankyou-chem-
+    count: 4
+
+- type: localizedDataset
+  id: IS14MedVendGoodbyes
+  values:
+    prefix: thankyou-med-
+    count: 4
