@@ -1,0 +1,149 @@
+- type: entity
+  id: MedWideLocker
+  parent: LockerBase
+  components:
+  - type: Sprite
+    sprite: _IS14/Structures/Storage/Lockers/Medical_wide.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: AccessReader
+    access: [["Medical"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: opened
+    stateDoorClosed: closed
+
+- type: entity
+  id: LawWideLocker
+  parent: LockerBase
+  components:
+  - type: Sprite
+    sprite: _IS14/Structures/Storage/Lockers/Law_wide.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: AccessReader
+    access: [["Lawyer"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: opened
+    stateDoorClosed: closed
+
+- type: entity
+  id: RNDLocker
+  parent: LockerBase
+  components:
+  - type: Sprite
+    sprite: _IS14/Structures/Storage/Lockers/RND.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: AccessReader
+    access: [["Research"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: opened
+    stateDoorClosed: closed
+
+- type: entity
+  id: Safe
+  parent: LockerBase
+  components:
+  - type: Sprite
+    sprite: _IS14/Structures/Storage/Lockers/Safe.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: AccessReader
+    access: [["Command"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: opened
+    stateDoorClosed: closed
+
+- type: entity
+  id: SafeCaptain
+  parent: LockerBase
+  components:
+  - type: Sprite
+    sprite: _IS14/Structures/Storage/Lockers/Safe_cap.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: opened
+    stateDoorClosed: closed
+
+- type: entity
+  id: SecurityWideLocker
+  parent: LockerBase
+  components:
+  - type: Sprite
+    sprite: _IS14/Structures/Storage/Lockers/Shitsec_wide.rsi
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: AccessReader
+    access: [["Security"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: opened
+    stateDoorClosed: closed
